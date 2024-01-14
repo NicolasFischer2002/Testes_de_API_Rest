@@ -1,0 +1,31 @@
+API significa interface de programação de aplicações
+
+APIs permitem que pessoas/softwares consumam serviços
+sem que seja necessário se preocupar em conhecer a estrutura
+do software que fornece o serviço
+
+A API seria um software empacotado, com interfaces que permitem 
+a comunicação com o interior do software.
+
+
+                              API
+
+╔════════════════════════════╗  ╔═══════════════════════════════════════╗  
+║   Interface de entrada     ║  ║   Software complexo por trás, com     ║                 
+║   que permite com que      ║  ║   estruturas de dados, gerenciamento  ║                 
+║   os serviços sejam        ║  ║   de memória, interação com banco     ║                         
+║   consumidos               ║  ║   de dados                            ║                 
+╚════════════════════════════╝  ╚═══════════════════════════════════════╝
+
+
+A API espera ser consumida por outro software, diferente de um site por exemplo,
+que será consumido por pessoas. Sites tem UI, interface de usuário. Uma API
+é feita para ser consumida por outros softwares.
+
+A característica principal de uma API é a interoperabilidade, ou seja, a possibilidade
+de um software A se comunicar com um software B, mesmo tendo sido feitos com tecnologias
+diferentes.
+
+Existem arquiteturas para APIs, e para que seja possível consumir seus serviços é
+necessário conhecer a arquitetura, os verbos utilizados nas requisições, para dentre outras
+coisas, ser possível realizar as requisições corretamente e mapear seus retornos.
